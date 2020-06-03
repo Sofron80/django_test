@@ -1,0 +1,8 @@
+{% for new in news %}
+<img src="media/{{new.photo}}" alt="">
+<h1>{{ new.title  }}</h1>
+<br>
+{{ new.content  }}
+{% endfor %}
+<br>
+{{ message }}
