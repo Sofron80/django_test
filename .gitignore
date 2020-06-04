@@ -1,4 +1,5 @@
 *.pyc
 /__pycache__
 /media
+/env
 db.sqlite3
